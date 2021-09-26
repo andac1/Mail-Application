@@ -1,0 +1,55 @@
+/* JavaFX CSS - Leave thi/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.label-label1 {
+    -fx-font-size: 50px;
+   -fx-font-family: "Arial Black";
+   -fx-text-fill: #95a5a6;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+
+}
+.label-mesaj{
+	-fx-text-fill: slateblue;
+    -fx-font: 14px "Arial Black";
+}
+
+.root{
+	
+	-fx-background-size:cover;
+	-fx-spacing:50;
+	-fx-padding:50; 
+   	-fx-background-radius: 190;
+	-fx-base: #d1d8e0; 
+    -fx-focused-text-base-color : white;                  
+}
+
+.button{
+	-fx-background-radius: 31px, 15px, 20px, 31px;
+	-fx-padding:30px, 30px, 30px, 30px;
+	-fx-text-fill: #ffffff;
+    -fx-background-color: linear-gradient(slateblue, #61a2b1);
+    -fx-background-radius: 50px, 50px, 50px, 50px;
+    -fx-font-family:bold10pt "Arial Narrow"; 
+    -fx-font-weight: bold;    
+    
+}
+
+.button-exit{
+	-fx-background-radius: 31px, 15px, 20px, 31px;
+	-fx-padding:30px, 30px, 30px, 30px;
+	-fx-text-fill: #ffffff;
+    -fx-background-color: linear-gradient(#7E0046, #7E0046);
+    -fx-background-radius: 50px, 50px, 50px, 50px;
+    -fx-font-family:bold10pt "Arial Narrow"; 
+    -fx-font-weight: bold;    
+    
+}
+
+.button-btnexit{
+	-fx-font-family: sample; -fx-background-color:#1abc9c; -fx-text-fill: black; -fx-font-size: 17;
+}
+
+.button:hover{	
+	-fx-background-color:#6d107e;
+    -fx-background-color: linear-gradient(#6d107e, #61a2b1);
+    -fx-background-radius: 50px, 50px, 50px, 50px;
+    -fx-text-fill: #ffffff;
+}
